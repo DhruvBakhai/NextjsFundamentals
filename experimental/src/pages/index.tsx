@@ -1,14 +1,16 @@
 
 import { Inter } from 'next/font/google'
-import Contact from './Contact'
+import Navbar from './../component/Navbar'
 
 const inter = Inter({ subsets: ['latin'] })
 
+//navbar
+
 export default function Home() {
   return (
-    <>
-      {/* <h1>Hello</h1> */}
-      <Contact />
-    </>
+    <div>
+      <Navbar />
+
+    </div>
   )
 }
